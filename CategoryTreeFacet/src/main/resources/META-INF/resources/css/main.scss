@@ -1,0 +1,51 @@
+//##### AFFICHAGE PRINCIPAL #####
+/* Remove default bullets */
+ul, .tree-node-custom {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+.tree-node-custom {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Style the caret/arrow */
+.caret-custom-cirad {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+  padding-right: 3px;
+  font-size: 14px;
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+.facet-term {
+  margin: 2px;
+}
+
+.node-custom {
+  display: flex;
+}
+
+.term-count {
+  margin: 2px;
+}
+
+//##### CONFIGURATION #####
+.dropdown-custom {
+  margin-bottom: 1.5rem;
+}
+
+.dropdown-menu-custom {
+  padding: 10px;
+  max-width: max-content;
+}

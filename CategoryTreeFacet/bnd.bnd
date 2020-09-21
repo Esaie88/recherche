@@ -1,0 +1,6 @@
+Bundle-Name: Category Tree Facet
+Bundle-SymbolicName: com.cirad.category.tree.facet.web
+Bundle-Version: 1.0.0
+Export-Package: categorytreefacetportlet.constants
+Include-Resource: @jsoup-1.12.1.jar
+-metatype: *
